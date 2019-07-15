@@ -1,0 +1,108 @@
+<div class="container">
+    {% for module in site.data.modules %}
+        <div class="row module shadow-sm">
+            <div class="col-12 col-md-3">
+                <img src="static/img/modules/{{ module.icon }}" class="module-icon rounded" alt="{{ module.brand }}">
+            </div>
+
+            <div class="col-12 col-md-9">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="module-brand">
+                                {{ module.brand }}
+                            </h3>
+                            
+                            <h6 class="font-italic module-venue">
+                                ({{ module.venue-shorthand }})
+                            </h6>
+                        </div>
+                    </div>
+                    
+                    <!-- <div class="row">
+                        <div class="col-12">
+                            <span class="font-weight-light">
+                                {{ module.authors }}.
+                                <span class="font-italic">
+                                    {{ module.venue }}.
+                                </span>
+                            </span>
+                        </div>
+                    </div> -->
+
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="font-weight-light">
+                                {{ module.tagline }}
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="">
+                                {{ module.summary }}
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <br/>
+                    
+                    <div class="row">
+                        <div class="col-12">
+                            {% if module.paper-home %}
+                                <span>
+                                    <a href="{{ module.paper-home }}" target="_blank" class="btn btn-outline-primary btn-sm resource-item" role="button">
+                                        <i class="fas fa-link" aria-hidden="true"></i> Project
+                                    </a>
+                                </span>
+                            {% endif %}
+
+                            {% if module.pdf %}
+                                <span>
+                                    <a href="{{ module.pdf }}" target="_blank" class="btn btn-outline-primary btn-sm resource-item" role="button">
+                                        <i class="far fa-file-pdf" aria-hidden="true"></i> Paper
+                                    </a>
+                                </span>
+                            {% endif %}
+
+                            {% if module.github %}
+                                <span>
+                                    <a href="{{ module.github }}" target="_blank" class="btn btn-outline-primary btn-sm resource-item" role="button">
+                                        <i class="fas fa-code" aria-hidden="true"></i> Code
+                                    </a>
+                                </span>
+                            {% endif %}
+
+                            {% if module.youtube %}
+                                <span>
+                                    <a href="{{ module.youtube }}" target="_blank" class="btn btn-outline-primary btn-sm resource-item" role="button">
+                                        <i class="fas fa-film" aria-hidden="true"></i> Video
+                                    </a>
+                                </span>
+                            {% endif %}
+
+                            {% if module.slides %}
+                                <span>
+                                    <a href="{{ module.slides }}" target="_blank" class="btn btn-outline-primary btn-sm resource-item" role="button">
+                                        <i class="fa fa-fw fa-window-maximize" aria-hidden="true"></i> Slides
+                                    </a>
+                                </span>
+                            {% endif %}
+
+                            {% if module.bibtex %}
+                                <span>
+                                    <button class="btn btn-outline-primary btn-sm resource-item" role="button"
+                                            data-container="body" data-toggle="popover" data-placement="bottom" 
+                                            data-html="true" data-content="<pre>{{ module.bibtex }}</pre>">
+                                        <i class="fa fa-fw fa-bookmark" aria-hidden="true"></i> BibTex
+                                    </button>
+                                </span>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>

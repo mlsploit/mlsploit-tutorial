@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-9" id="course-summary">
+            <strong>Course Summary</strong>
+            <p> {{ site.data.course.summary }} </p>
+        </div>
+        
+        <div class="col-10 col-md-3 shadow-lg" id="prereqs">
+            <strong>Prerequisites</strong>
+            <ul>
+                {% for item in site.data.course.prerequisites %}
+                    <li> {{ item }} </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

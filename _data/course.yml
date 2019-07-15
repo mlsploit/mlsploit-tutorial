@@ -1,0 +1,5 @@
+summary: |
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in turpis fermentum, fermentum nisl ac, tristique justo. Aenean tempus convallis egestas. Nullam ut ultricies elit. Donec consectetur ante at ex efficitur, quis fringilla mauris euismod. Duis commodo consectetur neque, eget molestie nulla consectetur in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin mollis dolor tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vulputate leo vitae pharetra pretium. Proin suscipit, enim ut commodo placerat, massa arcu luctus sapien, eget aliquam odio enim ut arcu. Vivamus tincidunt eros nec sem malesuada, eget placerat lorem congue.
+prerequisites:
+  - "item 1"
+  - "item 2"

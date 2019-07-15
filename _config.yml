@@ -1,0 +1,9 @@
+# Site settings
+title: "Adversarial Machine Learning with MLsploit"
+description: ""
+email: ""
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
