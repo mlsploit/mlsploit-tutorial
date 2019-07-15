@@ -63,3 +63,32 @@
       year={2018},
       organization={Springer}
     }
+
+
+- title: "Barnum: Detecting Document Malware via Control Flow Anomalies in Hardware Traces"
+  authors: "Carter Yagemann and Salmin Sultana and Li Chen and Wenke Lee"
+  venue: "22nd Information Security Conference (ISC 2019)"
+  venue-shorthand: ISC'19
+  year: 2019
+
+  paper-home: "https://carteryagemann.com/pages/barnum.html"
+  pdf: "#"
+  github: "https://github.com/carter-yagemann/barnum-mlsploit"
+  youtube: "#"
+  slides: "#"
+
+  icon: barnum.jpg
+  icon-fit: cover
+  brand: Barnum
+  tagline: Deep Learning Software Anomaly Detection
+  summary: |
+    Barnum is an offline control flow attack detection system that applies deep learning on hardware execution traces to model a program's behavior and detect control flow anomalies. Our implementation analyzes document readers to detect exploits and ABI abuse.
+    
+  bibtex: |
+    @article{yagemann2019barnum,
+      title={Barnum: Detecting Document Malware via Control Flow Anomalies in Hardware Traces},
+      author={Yagemann, Carter and Sultana, Salmin and Chen, Li and Lee, Wenke},
+      booktitle={Proceedings of the 22nd Information Security Conference},
+      year={2019},
+      organization={ISC}
+    }
