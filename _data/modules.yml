@@ -92,3 +92,32 @@
       year={2019},
       organization={ISC}
     }
+
+
+- title: "AVPass: Leaking and Bypassing Anti-virus Detection Model Automatically"
+  authors: "Jinho Jung and Chanil Jeon and Insu Yun and Max Wolotsky and Taesoo Kim"
+  venue: "BlackHat USA 17"
+  venue-shorthand: BlackHat'17
+  year: 2017
+
+  paper-home: "https://github.com/sslab-gatech/avpass"
+  pdf: "https://www.blackhat.com/docs/us-17/thursday/us-17-Jung-AVPASS-Leaking-And-Bypassing-Anitvirus-Detection-Model-Automatically.pdf"
+  github: "https://github.com/sslab-gatech/avpass"
+  youtube: "https://www.youtube.com/watch?v=GkMyobbyl88"
+  slides: "https://www.blackhat.com/docs/us-17/thursday/us-17-Jung-AVPASS-Leaking-And-Bypassing-Anitvirus-Detection-Model-Automatically.pdf"
+
+  icon: avpass.jpg
+  icon-fit: cover
+  brand: AVPass
+  tagline: Android Malware Detection Bypass
+  summary: |
+    AVPASS is a tool for leaking the detection model of Android antivirus (AV) programs, and bypassing the AV detection by using the leaked information coupled with APK perturbation techniques.
+    
+  bibtex: |
+    @article{jung2017avpass,
+     title={AVPASS: Leaking and Bypassing Antivirus Detection Model Automatically (to appear)},
+     author={Jung, Jinho and Jeon, Chanil and Wolotsky, Max and Yun, Insu and Kim, Taesoo},
+     journal={Black Hat USA Briefings (Black Hat USA), Las Vegas, NV},
+     year={2017}
+}
+
