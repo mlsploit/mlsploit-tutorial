@@ -101,7 +101,7 @@
   year: 2017
 
   paper-home: "https://github.com/sslab-gatech/avpass"
-  pdf: "https://www.blackhat.com/docs/us-17/thursday/us-17-Jung-AVPASS-Leaking-And-Bypassing-Anitvirus-Detection-Model-Automatically.pdf"
+  pdf: "#"
   github: "https://github.com/sslab-gatech/avpass"
   youtube: "https://www.youtube.com/watch?v=GkMyobbyl88"
   slides: "https://www.blackhat.com/docs/us-17/thursday/us-17-Jung-AVPASS-Leaking-And-Bypassing-Anitvirus-Detection-Model-Automatically.pdf"
@@ -119,5 +119,5 @@
      author={Jung, Jinho and Jeon, Chanil and Wolotsky, Max and Yun, Insu and Kim, Taesoo},
      journal={Black Hat USA Briefings (Black Hat USA), Las Vegas, NV},
      year={2017}
-}
+    }
 
