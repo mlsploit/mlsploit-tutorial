@@ -53,9 +53,9 @@
   icon: shapeshifter.gif
   icon-fit: cover
   brand: ShapeShifter
-  tagline: ShapeShifter is the first targeted physical attack on Faster R-CNN object detector.  
-  It generates adversarial stop signs that were consistently mis-detected by Faster R-CNN as the target objects in real drive-by tests, 
-  posing a potential threat to autonomous vehicles and other safety-critical computer vision systems.
+  tagline: 1st Targeted Physical Attack on Faster R-CNN Object Detector
+  summary: |
+    ShapeShifter is the first targeted physical attack on Faster R-CNN object detector. It generates adversarial stop signs that were consistently mis-detected by Faster R-CNN as the target objects in real drive-by tests, posing a potential threat to autonomous vehicles and other safety-critical computer vision systems.
 
   bibtex: |
     @inproceedings{chen2018shapeshifter,
