@@ -103,8 +103,7 @@
   venue-shorthand: BlackHat'17
   year: 2017
 
-  paper-home: "https://github.com/sslab-gatech/avpass"
-  pdf: "#"
+  paper-home: "https://github.com/sslab-gatech/avpass"  
   github: "https://github.com/sslab-gatech/avpass"
   youtube: "https://www.youtube.com/watch?v=GkMyobbyl88"
   slides: "https://www.blackhat.com/docs/us-17/thursday/us-17-Jung-AVPASS-Leaking-And-Bypassing-Anitvirus-Detection-Model-Automatically.pdf"
@@ -156,21 +155,19 @@
   year: 0
 
   paper-home: "https://github.com/jinhojun/sgx-new-ml"
-  pdf: "#"
   github: "https://github.com/jinhojun/sgx-new-ml"
-  youtube: "#"
   slides: "#"
 
-  icon: elf.jpg
+  icon: sgx.jpg
   icon-fit: cover
-  brand: ELF Module
-  tagline: ELF File Malware Detection and Bypassing
+  brand: SGX Module
+  tagline: SGX for privacy-preserving and inference-preventing ML and Adv-ML
   summary: |
-    ELF module is an end-to-end module to train/classify ELF classifier and perturb sample:
+    SGX module provides an example of privacy-preserving and inference-preventing ML and Adv-ML:
 
     <ul>
-    <li>ELF module trains and classifies Linux malware Classifier (using Nearest Neighbor, SVM, Gaussian Process, Neural Network, and Random Forest algorithms).</li>    
-    <li>ELF module perturbs target malware through remove-API (direct to indirect call). </li>    
+    <li>SGX module loads encrypted trained model and decrypt inside of the SGX. Also, this module accepts encrypted user-input so we can guarantee privacy even user's machine is compromised. </li>    
+    <li>SGX module maintains multiple classifiers and randomly selects which classifier should provide result to user. Since the result is non-deterministic, adversary will end-up with contaminated decision boundary while user can get the precision close to average of all classifiers. Since SGX can protect random number K, we can prevent decision boundary inference.</li>    
     </ul>
     
   bibtex: "#"
