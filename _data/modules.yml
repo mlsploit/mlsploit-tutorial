@@ -132,8 +132,32 @@
   year: 0
 
   paper-home: "https://github.com/jinhojun/elf-new-ml"
-  pdf: "#"
   github: "https://github.com/jinhojun/elf-new-ml"
+  slides: "#"
+
+  icon: elf.jpg
+  icon-fit: cover
+  brand: ELF Module
+  tagline: ELF File Malware Detection and Bypassing
+  summary: |
+    ELF module is an end-to-end module to train/classify ELF classifier and perturb sample:
+
+    <ul>
+    <li>ELF module trains and classifies Linux malware Classifier (using Nearest Neighbor, SVM, Gaussian Process, Neural Network, and Random Forest algorithms).</li>    
+    <li>ELF module perturbs target malware through remove-API (direct to indirect call). </li>    
+    </ul>
+   
+     
+
+- title: "MLsploit SGX"
+  authors: "Jinho Jung"
+  venue: "SGX"
+  venue-shorthand: SGX
+  year: 0
+
+  paper-home: "https://github.com/jinhojun/sgx-new-ml"
+  pdf: "#"
+  github: "https://github.com/jinhojun/sgx-new-ml"
   youtube: "#"
   slides: "#"
 
@@ -150,6 +174,4 @@
     </ul>
     
   bibtex: "#"
-    
-
 
