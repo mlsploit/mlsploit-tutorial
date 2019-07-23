@@ -168,7 +168,7 @@
     <ul>
     <li>SGX module loads encrypted trained model and decrypt inside of the SGX. Also, this module accepts encrypted user-input so we can guarantee privacy even user's machine is compromised. </li>    
     <li>SGX module maintains multiple classifiers and randomly selects which classifier should provide result to user. Since the result is non-deterministic, adversary will end-up with contaminated decision boundary while user can get the precision close to average of all classifiers. Since SGX can protect random number K, we can prevent decision boundary inference.</li>    
-    <li>We also build a webpage to guide user who wants to learn Intel SGX technology and this will help user to build the first SGX-enabled application step by step. In addition to this, we provide extensive resources for further study of Intel SGX. Please check the below link for detail.</li>
+    <li>We also build a webpage to guide user who wants to learn Intel SGX technology and this will help user to build the first SGX-enabled application step by step. In addition to this, we provide extensive resources for further study of Intel SGX. Please check the following link for detail.<a href="http://www.sgx101.com/">SGX101</a></li>
     </ul>
-    <a href="http://www.sgx101.com/">SGX101</a>
+    
 
