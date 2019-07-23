@@ -124,3 +124,32 @@
      year={2017}
     }
 
+
+- title: "ELF File Perturbation"
+  authors: "Jinho Jung"
+  venue: "ELF"
+  venue-shorthand: ELF
+  year: 0
+
+  paper-home: "https://github.com/sslab-gatech/avpass"
+  pdf: "#"
+  github: "https://github.com/jinhojun/elf-new-ml"
+  youtube: "#"
+  slides: "#"
+
+  icon: elf.jpg
+  icon-fit: cover
+  brand: ELF Module
+  tagline: ELF File Malware Classifier and Bypassing the Detection
+  summary: |
+    ELF module is an end-to-end module to train/classify ELF classifier and perturb sample.
+
+    <ul>
+    <li>ELF module trains and classifies Linux malware Classifier (using Nearest Neighbor, SVM, Gaussian Process, Neural Network, and Random Forest algorithms).</li>    
+    <li>ELF module perturbs target malware through remove-API (direct to indirect call). </li>    
+    </ul>
+    
+  bibtex: "#"
+    
+
+
