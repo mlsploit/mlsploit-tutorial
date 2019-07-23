@@ -131,7 +131,7 @@
   venue-shorthand: ELF
   year: 0
 
-  paper-home: "https://github.com/sslab-gatech/avpass"
+  paper-home: "https://github.com/jinhojun/elf-new-ml"
   pdf: "#"
   github: "https://github.com/jinhojun/elf-new-ml"
   youtube: "#"
@@ -140,9 +140,9 @@
   icon: elf.jpg
   icon-fit: cover
   brand: ELF Module
-  tagline: ELF File Malware Classifier and Bypassing the Detection
+  tagline: ELF File Malware Detection and Bypassing
   summary: |
-    ELF module is an end-to-end module to train/classify ELF classifier and perturb sample.
+    ELF module is an end-to-end module to train/classify ELF classifier and perturb sample:
 
     <ul>
     <li>ELF module trains and classifies Linux malware Classifier (using Nearest Neighbor, SVM, Gaussian Process, Neural Network, and Random Forest algorithms).</li>    
