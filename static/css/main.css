@@ -21,6 +21,7 @@ body {
 
 .row.module {
     margin-top: 2rem;
+    margin-bottom: 2rem;
     padding: 1rem;
     border: 1px solid #7800ff;
     border-radius: 0.5rem;

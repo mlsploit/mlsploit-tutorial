@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-10">
+            <h5>
+                Main Contributors
+            </h5>
+            
+            <!-- <ul>
+                {% for person in site.data.contributors %}
+                    <li>
+                        <a 
+                            {% if person.url %}
+                                href="{{ person.url }}"
+                            {% elsif person.email %}
+                                href="mailto:{{ person.email }}"
+                            {% else %}
+                                href="#"
+                            {% endif %}
+                        target="_blank">{{ person.name }}</a>
+                        ({{ person.affiliation }})
+                    </li>
+                {% endfor %} 
+            </ul> -->
+
+            <span>
+                {% for person in site.data.contributors %}
+                        <a 
+                            {% if person.url %}
+                                href="{{ person.url }}"
+                            {% elsif person.email %}
+                                href="mailto:{{ person.email }}"
+                            {% else %}
+                                href="#"
+                            {% endif %}
+                        target="_blank">{{ person.name }}</a>{% if forloop.last == false %},{% endif %}
+                {% endfor %} 
+            </span>
+        </div>
+    </div>
+</div>
