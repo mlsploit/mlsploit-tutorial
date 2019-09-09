@@ -1,2 +1,19 @@
 summary: |
-  Machine learning (ML) has been used in many real-world applications. However, recent research has shown that ML models can be highly vulnerable to adversarial examples, which are input instances that are intentionally designed to fool a model into producing a chosen prediction. The goal of this course is to showcase ML vulnerabilities and develop secure AI in various domains, with MLsploit. <br/><br/> MLsploit is an ML evaluation and fortification framework designed for education and research. It focuses on ML security related techniques in adversarial settings, such as adversarial creation, detection, and countermeasure. It consists of plug-able components or services which could demonstrate various security-related research topics. <br/><br/> MLsploit has a service-oriented architecture (SOA), a web portal to interact with users, and a RESTful API to automate the requests. The web portal allows interactive integration of various functional components. Each component can be implemented in any language on any platform. The components can be built as a serverless function or a micro-service wrapped into a portable container image. This flexible component design is agnostic to the underlying ML module implementation and not locked in to a specific cloud provider.<br/><br/>Several built-in modules in MLsploit will be shown in this course, including defense in the image domain (SHIELD), malware detection and bypassing (AVPass, ELF, Barnum), and the application of Intel SGX for privacy-preserving and inference-preventing ML.
+  Machine learning (ML) has been used in many real-world applications. However, recent research has shown that ML models can be highly vulnerable to adversarial examples, which are input instances that are intentionally designed to fool a model into producing a chosen prediction. The goal of this course is to showcase ML vulnerabilities and develop secure AI in various domains, with MLsploit. 
+  <br/><br/> 
+  MLsploit is an ML evaluation and fortification framework designed for education and research. It focuses on ML security related techniques in adversarial settings, such as adversarial creation, detection, and countermeasure. It consists of plug-able components or services which could demonstrate various security-related research topics.
+  <br/><br/>
+  MLsploit has a service-oriented architecture (SOA), a web portal to interact with users, and a RESTful API to automate the requests. The web portal allows interactive integration of various functional components. Each component can be implemented in any language on any platform. The components can be built as a serverless function or a micro-service wrapped into a portable container image. This flexible component design is agnostic to the underlying ML module implementation and not locked in to a specific cloud provider.
+  <br/><br/>
+  Several built-in modules in MLsploit will be shown in this course, including defense in the image domain (SHIELD), malware detection and bypassing (AVPass, ELF, Barnum), and the application of Intel SGX for privacy-preserving and inference-preventing ML.
+  <br/><br/>
+  To get started, head over to the 
+  <a href="https://github.com/mlsploit/mlsploit-rest-api">MLsploit REST API</a>,
+  <a href="https://github.com/mlsploit/mlsploit-execution-backend">MLsploit Execution Backend</a> and
+  <a href="https://github.com/mlsploit/mlsploit-web-ui">MLsploit Web UI</a>
+  repositories to set up MLsploit, and then check out the various MLsploit modules below.
+resources:
+  paper-home: "https://mlsploit.github.io/"
+  pdf: "https://www.kdd.org/kdd2019/docs/KDD2019_Showcase_2062.pdf"
+  github: "https://github.com/mlsploit"
+  youtube: "https://youtu.be/hlzszoQVgD4"
