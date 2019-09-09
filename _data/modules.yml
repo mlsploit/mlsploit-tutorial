@@ -7,9 +7,8 @@
   paper-home: "https://poloclub.github.io/jpeg-defense/"
   award: Audience Appreciation Award, Runner-up
   pdf: "https://arxiv.org/abs/1802.06816"
-  github: "https://www.github.com/poloclub/jpeg-defense"
+  github: "https://github.com/nilakshdas/mlsploit-shield"
   youtube: "https://youtu.be/zUB2-i7rSb4"
-  slides: "#"
 
   icon: shield.jpg
   icon-fit: cover
@@ -48,7 +47,6 @@
   pdf: https://arxiv.org/abs/1804.05810
   github: "https://github.com/shangtse/robust-physical-attack"
   youtube: "https://youtu.be/pc2ssNY98LA"
-  slides: "#"
 
   icon: shapeshifter.gif
   icon-fit: cover
@@ -75,10 +73,7 @@
   year: 2019
 
   paper-home: "https://carteryagemann.com/pages/barnum.html"
-  pdf: "#"
   github: "https://github.com/carter-yagemann/barnum-mlsploit"
-  youtube: "#"
-  slides: "#"
 
   icon: barnum.jpg
   icon-fit: cover
@@ -104,7 +99,7 @@
   year: 2017
 
   paper-home: "https://github.com/sslab-gatech/avpass"  
-  github: "https://github.com/sslab-gatech/avpass"
+  github: "https://github.com/jinhojun/avpass-new-ml"
   youtube: "https://www.youtube.com/watch?v=GkMyobbyl88"
   slides: "https://www.blackhat.com/docs/us-17/thursday/us-17-Jung-AVPASS-Leaking-And-Bypassing-Anitvirus-Detection-Model-Automatically.pdf"
 
@@ -132,7 +127,6 @@
 
   paper-home: "https://github.com/jinhojun/elf-new-ml"
   github: "https://github.com/jinhojun/elf-new-ml"
-  slides: "#"
 
   icon: elf.jpg
   icon-fit: cover
@@ -156,7 +150,6 @@
 
   paper-home: "https://github.com/jinhojun/sgx-new-ml"
   github: "https://github.com/jinhojun/sgx-new-ml"
-  slides: "#"
 
   icon: sgx.jpg
   icon-fit: cover
