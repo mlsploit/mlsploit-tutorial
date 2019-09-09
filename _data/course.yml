@@ -17,3 +17,4 @@ resources:
   pdf: "https://www.kdd.org/kdd2019/docs/KDD2019_Showcase_2062.pdf"
   github: "https://github.com/mlsploit"
   youtube: "https://youtu.be/hlzszoQVgD4"
+  slides: "static/pdf/mlsploit-adversarial-ml-intro.pdf"
