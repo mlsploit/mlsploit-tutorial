@@ -1,9 +1,7 @@
 summary: |
-  Machine learning (ML) has been used in many real-world applications. However, recent research has shown that ML models can be highly vulnerable to adversarial examples, which are input instances that are intentionally designed to fool a model into producing a chosen prediction. The goal of this course is to showcase ML vulnerabilities and develop secure AI in various domains, with MLsploit. 
+  Machine learning (ML) is increasingly being used in several real-world applications. However, research has shown that ML models can be highly vulnerable to adversarial examples, which are input instances that are intentionally designed to fool a model into producing incorrect predictions. The goal of this course is to demonstrate ML vulnerabilities and develop secure AI in various domains, with MLsploit. 
   <br/><br/> 
-  MLsploit is an ML evaluation and fortification framework designed for education and research. It focuses on ML security related techniques in adversarial settings, such as adversarial creation, detection, and countermeasure. It consists of plug-able components or services which could demonstrate various security-related research topics.
-  <br/><br/>
-  MLsploit has a service-oriented architecture (SOA), a web portal to interact with users, and a RESTful API to automate the requests. The web portal allows interactive integration of various functional components. Each component can be implemented in any language on any platform. The components can be built as a serverless function or a micro-service wrapped into a portable container image. This flexible component design is agnostic to the underlying ML module implementation and not locked in to a specific cloud provider.
+  MLsploit is an ML evaluation and fortification framework designed for education and research. It focuses on ML security related techniques in adversarial settings, such as adversarial creation, detection, and countermeasure. It consists of plug-able modules which could demonstrate various security-related research topics.
   <br/><br/>
   Several built-in modules in MLsploit will be shown in this course, including defense in the image domain (SHIELD), malware detection and bypassing (AVPass, ELF, Barnum), and the application of Intel SGX for privacy-preserving and inference-preventing ML.
   <br/><br/>
