@@ -1,3 +1,21 @@
+- title: "MLsploit: A Framework for Interactive Experimentation with Adversarial Machine Learning Research"
+  authors: ""
+  venue: "Project Showcase at 25th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2019)"
+  venue-shorthand: KDD'19 Project Showcase
+  year: 2019
+
+  paper-home: "https://mlsploit.github.io/"
+  pdf: "https://www.kdd.org/kdd2019/docs/KDD2019_Showcase_2062.pdf"
+  github: "https://github.com/mlsploit"
+  youtube: "https://youtu.be/hlzszoQVgD4"
+
+  icon: mlsploit.png
+  icon-fit: cover
+  brand: MLsploit
+  tagline: A Framework for Interactive Experimentation with Adversarial Machine Learning Research
+  summary: |
+    MLsploit is a machine learning (ML) evaluation and fortification framework designed for education and research of adversarial ML. It is the first cloud-based tool that allows real-time interactive experimentation with state-of-the-art adversarial ML research through a web-based interface. The MLsploit system has a service-oriented architecture (SOA) that includes a web portal for users to interact with, and a RESTful API to further automate experiments. The research functions integrated in MLsploit can be thought of as modular components which can be combined in different arrangements to create the desired experiment pipeline using an intuitive interface. Since MLsploit leverages Docker containerization in the backend, each component can be implemented in any language and on any platform, and MLsploit glues everything together through well-defined APIs. This flexible component design is agnostic to the underlying implementation of the ML functionality, and hence allows quick development for researchers as well.
+
 - title: "SHIELD: Fast, Practical Defense and Vaccination for Deep Learning using JPEG Compression"
   authors: "Nilaksh Das, Madhuri Shanbhogue, Shang-Tse Chen, Fred Hohman, Siwei Li, Li Chen, Michael E. Kounavis, Duen Horng Chau"
   venue: "24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2018)"
