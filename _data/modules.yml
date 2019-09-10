@@ -27,6 +27,7 @@
   pdf: "https://arxiv.org/abs/1802.06816"
   github: "https://github.com/nilakshdas/mlsploit-shield"
   youtube: "https://youtu.be/zUB2-i7rSb4"
+  slides: "static/pdf/shield.pdf"
 
   icon: shield.jpg
   icon-fit: cover
