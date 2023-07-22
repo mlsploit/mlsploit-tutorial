@@ -118,7 +118,7 @@
   year: 2017
 
   paper-home: "https://github.com/sslab-gatech/avpass"  
-  github: "https://github.com/jinhojun/avpass-new-ml"
+  github: "https://github.com/sslab-gatech/avpass"
   youtube: "https://www.youtube.com/watch?v=GkMyobbyl88"
   slides: "https://www.blackhat.com/docs/us-17/thursday/us-17-Jung-AVPASS-Leaking-And-Bypassing-Anitvirus-Detection-Model-Automatically.pdf"
 
@@ -144,8 +144,8 @@
   venue-shorthand: ELF
   year: 0
 
-  paper-home: "https://github.com/jinhojun/elf-new-ml"
-  github: "https://github.com/jinhojun/elf-new-ml"
+  paper-home: "https://github.com/killvxk/elf-mlsploit"
+  github: "https://github.com/killvxk/elf-mlsploit"
 
   icon: elf.jpg
   icon-fit: cover
